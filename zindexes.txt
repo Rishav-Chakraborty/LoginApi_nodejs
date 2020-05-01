@@ -1,0 +1,19 @@
+Registration routs = localhost:8000/user/register     //(POST method)
+Login routs = localhost:8000/user/Login               //(POST method)
+
+Dependencies = "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "expres": "0.0.5",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.10",
+    "nodemon": "^1.19.4"
+
+Commands = setup :  npm install 
+           start : npm start 
+           monitor mode : npm run dev
+
+Environment variables = file -> .env
+
+entry point  -> index.js
